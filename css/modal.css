@@ -56,11 +56,12 @@
 .modal__close-btn {
   background: transparent;
   cursor: pointer;
-  height: 50px;
+  height: 30px;
+  width: 30px;
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 50px;
+  right: 3px;
+  top: 0px;
+  
 }
 .modal__close-icon {
   fill: #fff;
