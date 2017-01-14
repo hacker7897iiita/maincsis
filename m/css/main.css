@@ -12,9 +12,10 @@
     overflow: hidden;
 }
 .heading{
-    font-family: 'Amarante';
+    font-family: 'Orbitron', sans-serif;
     font-size:40px;
     color:black;
+    font-weight:bold;
 }
 .logo{
     position:relative;
