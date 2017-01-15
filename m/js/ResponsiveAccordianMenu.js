@@ -23,7 +23,7 @@ $(window).load(function() {
 		}
 		else {
 			content.not(thisContent).slideUp("slow", function() {
-				$('#'+divID).parent().find('.header .expand img').attr('src', 'images/down.png');
+				$('#'+divID).parent().find('.header .expand img').attr('src', 'images/up.png');
 			});
 			thisContent.slideDown("slow", function() {
 				// scroll to selected div
