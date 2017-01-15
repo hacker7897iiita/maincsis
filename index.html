@@ -13,8 +13,7 @@
 	<link rel="stylesheet" href="css/jquery.pagepiling.css" />
 	<link rel="stylesheet" href="css/dock.css"> <!-- Stylesheet for dock -->
 	<link rel="stylesheet" href="css/main.css">		
-	<link rel="stylesheet" href="css/modal.css"><!-- Stylesheet for modal -->
-	<script type="text/javascript" src="js/modal.js"></script><!-- js for modal -->
+	
 	<script src="js/jquery-2.1.4.js"></script>
 	<script src="js/main.js"></script> <!-- Resource jQuery -->
   	<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
@@ -26,7 +25,7 @@
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		anchors: ['home', 'aboutcsis', 'schedule', 'speakers', 'registration','sponsors', 'team', 'faqs'],
-			    sectionsColor: ['black', 'white', 'white', '#262626', 'white', 'white', 'white', '#154360']
+			    sectionsColor: ['black', 'white', 'white', '#262626', 'white', '#2b333b', 'white', '#154360']
 			});
 	    });
     </script>
@@ -39,7 +38,7 @@
 			//console.log("width " + width + " height:" + height);
 			
 			if( width <= 950 || height <= 550 ){
-				//window.location = "http://ieeecsis.org/m/index.html";
+				window.location = "http://ieeecsis.org/m/index.html";
 				//console.log("In mobile");
 			} else {
 				//console.log("In Browser");
@@ -58,7 +57,7 @@
 	    		<img src="images/logos/iiita.png" style="width:110px; margin-left:20px; float:left;" />
 	    		</a>
 	    		<a href="#">
-	    		<img src="images/logos/CSISLogo.png" style="width:380px; margin-right:20px; float:right" /></a>
+	    		<img src="images/sponsers/csis_tata_capital.png" style="width:380px; margin-right:20px; float:right" /></a>
 	    		<div class="mainDialog"> <!-- Style for Caption Box -->
 	    			<h1 style="color:white">CSIS'17</h1>
 	    			<p class="schedule_date" style="margin-top:10px;">17th March,2017 - 19th March, 2017</p>
@@ -88,21 +87,21 @@
 			</div>
 	    </div>
 
-	    <div class="section" id="section7"> <!-- Linked with About CSIS Page -->
+	     <div class="section" id="section7"> <!-- Linked with About CSIS Page -->
 	    	<div class="aboutusPage">
 	    		<h1 class="headings" style="color:black; font-size:35px;">About CSIS</h1> <!-- change cardHolder Height-->
 	    		</br>
 	    		<div class="aboutcsiscontent">
-		    		<p>
-	    				The IEEE Computer Society India Symposium (CSIS) 2017 is to be held at IIIT Allahabad in the last week of March 2017. It will be jointly conducted by the IEEE Computer Society India Council SAC, IEEE SP/C Joint Chapter, UP Section and IEEE Student Branch, IIIT Allahabad. 
-	    			</p>
-	    			<p>
-						The main scope of this symposium is to bring together professionals, speakers, experts and other academicians so that the students can interact with and learn from them. The theme of the event is “Humans & Computers”. The symposium will include talks, workshops, and events on a wide array of CS/IT domains such as Human Computer Interaction, Machine Learning, Network Security, Cognitive Science and much more. As a platform to bring all the Computer Society chapters of India together, IEEE CSIS 2017 focuses on improving the future activities of all the different chapters of Computer Society all over India as well as to cast a focus on the immense depth of computer science. 
-					</p>
-					<p>
-						The IEEE CSIS 2017 will be a three-day event and will provide the students and young professionals with an opportunity to interact with the esteemed speakers and professionals from all over India. Technical talks on currently flourishing fields and workshops thereafter based on the same will nurture the creative minds and open them to a new world.  The IEEE CSIS 2017 Team cordially invites you to grace the symposium with your presence and give a talk on any subject of your choice which aligns with the theme of the event. You are also invited to conduct a workshop on the same topic. The CSIS team will gladly provide you with the resources and personnel for the same. We look forward to your participation in the IEEE CSIS 2017.
-					</p>
-				</div> <!--End of aboutcsiscontent -->
+		    	<p>
+	    		The IEEE Computer Society India Symposium (CSIS) 2017 is to be held at IIIT Allahabad in the last week of March 2017. It will be jointly conducted by the IEEE Computer Society India Council SAC, IEEE SP/C Joint Chapter, UP Section and IEEE Student Branch, IIIT Allahabad. 
+	    		</p>
+	    		<p>
+The main scope of this symposium is to bring together professionals, speakers, experts and other academicians so that the students can interact with and learn from them. The theme of the event is &quot;Humans & Computers&quot;. The symposium will include talks, workshops, and events on a wide array of CS/IT domains such as Human Computer Interaction, Machine Learning, Network Security, Cognitive Science and much more. As a platform to bring all the Computer Society chapters of India together, IEEE CSIS 2017 focuses on improving the future activities of all the different chapters of Computer Society all over India as well as to cast a focus on the immense depth of computer science. 
+				</p>
+				<p>
+The IEEE CSIS 2017 will be a three-day event and will provide the students and young professionals with an opportunity to interact with the esteemed speakers and professionals from all over India. Technical talks on currently flourishing fields and workshops thereafter based on the same will nurture the creative minds and open them to a new world.  The IEEE CSIS 2017 Team cordially invites you to grace the symposium with your presence and give a talk on any subject of your choice which aligns with the theme of the event. You are also invited to conduct a workshop on the same topic. The CSIS team will gladly provide you with the resources and personnel for the same. We look forward to your participation in the IEEE CSIS 2017.
+			</p>
+			</div> <!--End of aboutcsiscontent -->
 	    	</div> <!-- End of aboutusPage -->
 	    </div>
 
@@ -115,7 +114,8 @@
 						<div class="events-wrapper">
 							<div class="events">
 								<ol>
-									<li><a href="#0" data-date="22/01/2017" class="selected">22 Jan</a></li>
+									<li><a href="#0" data-date="14/01/2017" class="selected">14 Jan</a></li>
+									<li><a href="#0" data-date="22/01/2017">22 Jan</a></li>
 									<li><a href="#0" data-date="17/03/2017">17 Mar</a></li>
 								</ol>
 								<span class="filling-line" aria-hidden="true"></span>
@@ -130,15 +130,23 @@
 
 					<div class="events-content">
 						<ol>
-							<li class="selected" data-date="22/01/2017">
-								<h2 style="font-size:40px;">Registration</h2>
+							<li class="selected" data-date="14/01/2017">
+								<h2 style="font-size:35px;">List of selected volunteers</h2>
+								<em style="font-size:15px;">January 14th, 2017</em>
+								<p style="font-size:25px;">	
+									Following is the attached list of shortlisted volunteers for CSIS'17
+								</p>
+								<p style="font-size:20px;"><a href="shortlistedvolunteers.pdf">Click here to see list</a></p>
+							</li>
+							<li data-date="22/01/2017">
+								<h2 style="font-size:35px;">Registration</h2>
 								<em style="font-size:15px;">January 22nd, 2017</em>
 								<p style="font-size:25px;">	
 								Registrations open for the symposium from 22nd January.
 								</p>
 							</li>
 							<li data-date="17/03/2017">
-								<h2 style="font-size:40px;">Symposium Date</h2>
+								<h2 style="font-size:35px;">Symposium Date</h2>
 								<em style="font-size:15px;">March 17rd, 2017</em>
 								<p style="font-size:25px;">	
 									 The event is tentatively scheduled to be held from 17-19 March 2017.
@@ -156,89 +164,8 @@
 		    	<h1 class="headings">Speakers</h1> <!-- change cardHolder Height-->
 		    	<div class="cardHolder">
 		    		<!-- A card -->
-		    		<div class = "cardRow" style="margin-top:40px;">
-		    		<!-- code for modal -->
-		    	
-					<div class="modal" id="modal1">
-					  	<div class="modal__window">
-						<a class="modal__close-btn center" type="button" data-close-modal><img src="images/btn.png" style="width: 30px;height: 30px;"></a>
-					    <div class="modal__header">    
-					          <h2 class="modal__title">Prof. Harish Karnick</h2><p>-IIT Kanpur</p>
-					    </div>
-					    <div class="modal__content">    
-					      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis </p>
-					    </div>
-					    <div><a><img src="images/linkdin.png" style="width: 30px;height: 30px;"></a></div>	
-						</div>				       
-					</div>
-					<div class="modal" id="modal2">
-					  	<div class="modal__window">
-						<a class="modal__close-btn center" type="button" data-close-modal><img src="images/btn.png" style="width: 30px;height: 30px;"></a>
-					    <div class="modal__header">    
-					          <h2 class="modal__title">Mr. Davesh Singh</h2><p>-UIDAI</p>
-					    </div>
-					    <div class="modal__content">    
-					      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis </p>
-					    </div>
-						</div>					       
-					</div>
-					<div class="modal" id="modal3">
-					  	<div class="modal__window">
-						<a class="modal__close-btn center" type="button" data-close-modal><img src="images/btn.png" style="width: 30px;height: 30px;"></a><a class="modal__close-btn center" type="button" data-close-modal><img src="images/btn.png" style="width: 30px;height: 30px;"></a>
-					    <div class="modal__header">    
-					          <h2 class="modal__title">Prof. Sudip Sanyal</h2><p>-IIIT Allahabad</p>
-					    </div>
-					    <div class="modal__content">    
-					      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis </p>
-					    </div>
-						</div>					       
-					</div>
-					<div class="modal" id="modal4">
-					  	<div class="modal__window">
-						<a class="modal__close-btn center" type="button" data-close-modal><img src="images/btn.png" style="width: 30px;height: 30px;"></a>
-					    <div class="modal__header">    
-					          <h2 class="modal__title">Dr. Rahul Kala</h2><p>-IIIT Allahabad</p>
-					    </div>
-					    <div class="modal__content">    
-					      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis </p>
-					    </div>
-						</div>					       
-					</div>
-					<div class="modal" id="modal5">
-					  	<div class="modal__window">
-						<a class="modal__close-btn center" type="button" data-close-modal><img src="images/btn.png" style="width: 30px;height: 30px;"></a>
-					    <div class="modal__header">    
-					          <h2 class="modal__title">Santosh Sharma</h2>
-					    </div>
-					    <div class="modal__content">    
-					      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis </p>
-					    </div>
-						</div>					       
-					</div>
-					<div class="modal" id="modal6">
-					  	<div class="modal__window">
-						<a class="modal__close-btn center" type="button" data-close-modal><img src="images/btn.png" style="width: 30px;height: 30px;"></a>
-					    <div class="modal__header">    
-					          <h2 class="modal__title">Mr.Senthil Kumar</h2>
-					    </div>
-					    <div class="modal__content">    
-					      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis </p>
-					    </div>
-						</div>					       
-					</div>
-					<div class="modal" id="modal7">
-					  	<div class="modal__window">
-						<a class="modal__close-btn center" type="button" data-close-modal><img src="images/btn.png" style="width: 30px;height: 30px;"></a>
-					    <div class="modal__header">    
-					          <h2 class="modal__title">Title of modal</h2>
-					    </div>
-					    <div class="modal__content">    
-					      	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis </p>
-					    </div>
-						</div>					       
-					</div>
-					<!--ending for modal -->
-				    	<a class="btn" type="button" data-trigger-modal="modal1">
+		    		<div class = "cardRow" style="margin-top:10px;">
+				    	<a href="https://in.linkedin.com/in/harish-karnick-388b1616">
 					    	<div class = "card1">
 					    		<img src='images/speakers/karnick.png'>
 					    		<div class="card-container">
@@ -247,16 +174,16 @@
 								</div>
 				    		</div>	
 			    		</a>
-			    		<a class="btn" type="button" data-trigger-modal="modal2">
+			    		<a href="https://in.linkedin.com/in/davesh-singh-16788139">
 				    		<div class = "card1">
-					    		<img src='images/avatar.png'>
+					    		<img src='images/speakers/davesh_singh.jpeg'>
 					    		<div class="card-container">
 							    	<h4>Mr. Davesh Singh</h4> 
 							    	<p>UIDAI</p> 
 								</div>
 				    		</div>
 			    		</a>
-				    		<a class="btn" type="button" data-trigger-modal="modal3">
+				    		<a href="https://www.linkedin.com/in/sudip-sanyal-76439b100">
 				    		<div class = "card1">
 					    		<img src='images/speakers/sanyal.jpg'>
 					    		<div class="card-container">
@@ -265,7 +192,7 @@
 								</div>
 				    		</div>
 			    		</a>
-			    		<a class="btn" type="button" data-trigger-modal="modal4">
+			    		<a href="https://in.linkedin.com/in/rahul-kala-3b918822">
 				    		<div class = "card1">
 					    		<img src='images/speakers/rahul_kala.png' style="width:300px;">
 					    		<div class="card-container">
@@ -277,7 +204,7 @@
 		    		</div> <!--End of cardRow-->
 
 		    		<div class = "cardRow">
-				    	<a class="btn" type="button" data-trigger-modal="modal5">
+				    	<a href="https://in.linkedin.com/in/santoshcas">
 				    		<div class = "card1">
 					    		<img src='images/speakers/santosh.jpg' style="width:300px;">
 					    		<div class="card-container">
@@ -286,12 +213,21 @@
 								</div>
 				    		</div>
 			    		</a>
-			    		<a class="btn" type="button" data-trigger-modal="modal6">
+			    		<a href="#">
 				    		<div class = "card1">
 					    		<img src='images/speakers/senthil.png' style="width:300px;">
 					    		<div class="card-container">
 							    	<h4>Mr. Senthil Kumar</h4> 
 							    	<p></p> 
+								</div>
+				    		</div>
+			    		</a>
+			    		<a href="#">
+				    		<div class = "card1">
+					    		<img src='images/speakers/KRamakrishna.jpg' style="width:300px;">
+					    		<div class="card-container">
+							    	<h4>R. Kappagantu</h4> 
+							    	<p>Former R10 Director</p> 
 								</div>
 				    		</div>
 			    		</a>
@@ -317,121 +253,125 @@
 
 	    <div class="section" id="section3"> <!-- Sponsors Page -->
 	    	<div class="sonpsorPage">
-	    		<h1 class="headings" style='color:black;'>Our Sponsors</h1>
-	    		<center>
-					<a href="http://www.tatacapital.com/">
-						<img src='images/sponsers/tata-capital.png' class="education_partner"> 
-					</a>
-					<a href="http://www.wileyindia.com/">
-						<img src='images/sponsers/wiley_logo.png' style="margin-left:30px;" class="education_partner"> 
-					</a>
-				</center>
-			    <div class="sponsorContainer" style="margin-top:30px;">
-			    	<a href="http://www.ieeeup.org/">
-				    	<div class="sponsor">
-					    	<img src='images/sponsers/upsection.png' style="height:150px; width:150px;"> 
-						</div>
-					</a>
-					<a href="https://www.computer.org/">
-						<div class="sponsor">
-					    	<img src='images/sponsers/csLogo.jpg' style="height:150px; width:200px;">
-						</div>
-					</a>
-					<a href="http://signalprocessingsociety.org/">
-						<div class="sponsor">
-					    	<img src='images/sponsers/signal.gif' style="height:150px; width:230px;">
-						</div>
-					</a>
-				</div>
-				</br></br>
+	    		<h1 class="headings">Our Sponsors</h1>
+	    		<div class="title_sponsors">
+		    		<div class="sponsor_header">
+		    			<h1>Title Sponsor<h1>
+		    		</div>
+		    		<img src="images/sponsers/tata_capital_logo.jpg" style="width:350px;" />
+		    	</div>
+	    		<div class="otherSponsors">
+	    			<div class="major_sponsors">
+			    		<div class="sponsor_header">
+			    			<h1>Major Sponsors<h1>
+			    		</div>
+			    		<img src='images/sponsers/upsection.png' style="height:100px; width:100px;">
+			    		<img src='images/sponsers/csLogo.jpg' style="height:100px; width:150px;">
+						<img src='images/sponsers/signal.gif' style="height:120px; width:210px;">
+		    		</div>
+		    		<div class="education_partner">
+			    		<div class="sponsor_header">
+			    			<h1>Education Partner<h1>
+			    		</div>
+			    		<img src="images/sponsers/wiley_logo.png" style="width:200px; margin-top:40px;">
+		    		</div>
+		    	</div>
+	    	
 			</div>
 	    </div>
+
 	    <!-- End of sponsers page  -->
 	    
 	    <div class="section" id="section6"> <!-- Linked with Team Page -->
 	    	<div class="aboutusPage">
-	    		<h1 style="color:black;">Team</h1> <!-- change cardHolder Height-->
-		    	<div class="cardHolder">
-		    	
-		    		<div class = "cardRow2" style="margin-top:20px;">
-		    			<a href="#">
-					    	<div class = "card2">
-					    		<img src='images/avatar.png'>
-					    		<div class="card2-container">
-							    	<h4>Prof. S.N. Singth</h4> 
-							    	<p>IEEE CS R-10 Ambassador</p>
-								</div>
-				    		</div>
-			    		</a>
-			    		<a href="#">
-					    	<div class = "card2">
-					    		<img src='images/avatar.png'>
-					    		<div class="card2-container">
-							    	<h4>Prof. F. Ramkumar</h4> 
-							    	<p>IEEE CS R-10 Ambassador</p>
-								</div>
-				    		</div>
-			    		</a>
-		    			<a href="#">
-					    	<div class = "card2">
-					    		<img src='images/avatar.png'>
-					    		<div class="card2-container">
-							    	<h4>Prof. U.S. Tiwari</h4> 
-							    	<p>IEEE CS R-10 Ambassador</p>
-								</div>
-				    		</div>
-			    		</a>
-			    		<a href="#">
-					    	<div class = "card2">
-					    		<img src='images/avatar.png'>
-					    		<div class="card2-container">
-							    	<h4>Prof. Shekhar Verma</h4> 
-							    	<p>IEEE CS R-10 Ambassador</p>
-								</div>
-				    		</div>
-			    		</a>
-			    		<a href="#">
-					    	<div class = "card2">
-					    		<img src='images/avatar.png'>
-					    		<div class="card2-container">
-							    	<h4>Dr. Kumar Vaibhav Srivastav</h4> 
-							    	<p>IEEE CS R-10 Ambassador</p>
-								</div>
-				    		</div>
-			    		</a>
-			    		<a href="#">
-					    	<div class = "card2">
-					    		<img src='images/avatar.png'>
-					    		<div class="card2-container">
-							    	<h4>Dr. Rajat Singh</h4> 
-							    	<p>IEEE CS R-10 Ambassador</p>
-								</div>
-				    		</div>
-			    		</a>
-			    		<a href="#">
-					    	<div class = "card2">
-					    		<img src='images/avatar.png'>
-					    		<div class="card2-container">
-							    	<h4>Dr. Satish Singh</h4> 
-							    	<p>IEEE CS R-10 Ambassador</p>
-								</div>
-				    		</div>
-			    		</a>
-			    		<a href="#">
-					    	<div class = "card2">
-					    		<img src='images/avatar.png'>
-					    		<div class="card2-container">
-							    	<h4>Dr. Amit Dhar</h4> 
-							    	<p>IEEE CS R-10 Ambassador</p>
-								</div>
-				    		</div>
-			    		</a>
-			    	</div> <!--End of cardRow-->
-
-		    		<div class = "cardRow2" style="margin-top:20px;">
-		    			<a href="https://www.facebook.com/shivam.abhilash">
+	    		<div class="cardHolder">
+		    		<!-- for mentors-->
+		    		<div style="width:60%; height:100%; float:left;"> 
+		    			<center><h1 style="margin-top:20px;">Mentors</h1></center>
+		    			<div class = "cardRow2" style="margin-top:20px;">
+			    			<a href="#">
+						    	<div class = "card2">
+						    		<img src='images/team/snsingh.jpg'>
+						    		<div class="card2-container">
+								    	<h4>Prof. S.N. Singth</h4> 
+								    	<p>Chair Elect IEEE India Council</p>
+									</div>
+					    		</div>
+				    		</a>
+				    		<a href="#">
+						    	<div class = "card2">
+						    		<img src='images/team/ramkumar.JPG'>
+						    		<div class="card2-container">
+								    	<h4>Prof. J. Ramkumar</h4> 
+								    	<p>Chairperson IEEE UP Section</p>
+									</div>
+					    		</div>
+				    		</a>
+			    			<a href="#">
+						    	<div class = "card2">
+						    		<img src='images/team/us_tiwari.jpg'>
+						    		<div class="card2-container">
+								    	<h4>Prof. U.S. Tiwary</h4> 
+								    	<p>Chairperson IEEE SP/C Joint Chapter UP Section</p>
+									</div>
+					    		</div>
+				    		</a>
+				    		<a href="#">
+						    	<div class = "card2">
+						    		<img src='images/team/shekhar_verma.jpg'>
+						    		<div class="card2-container">
+								    	<h4>Prof. Shekhar Verma</h4> 
+								    	<p>Faculty Advisor IEEE CS Chapter IIIT Allahabad</p>
+									</div>
+					    		</div>
+				    		</a>
+				    	</div>
+			    		<div class = "cardRow2" style="margin-top:20px;">
+				    		<a href="#">
+						    	<div class = "card2">
+						    		<img src='images/team/kumar_vaibhav.jpg'>
+						    		<div class="card2-container">
+								    	<h4>Dr. Kumar Vaibhav Srivastav</h4> 
+								    	<p>IIT Kanpur</p>
+									</div>
+					    		</div>
+				    		</a>
+				    		<a href="#">
+						    	<div class = "card2">
+						    		<img src='images/team/rajat_singh.jpg'>
+						    		<div class="card2-container">
+								    	<h4>Dr. Rajat Singh</h4> 
+								    	<p>Faculty Counselor IEEE Student Branch IIITA</p>
+									</div>
+					    		</div>
+				    		</a>
+				    		<a href="#">
+						    	<div class = "card2">
+						    		<img src='images/team/sksingh.jpg'>
+						    		<div class="card2-container">
+								    	<h4>Dr. Satish Singh</h4> 
+								    	<p>Secretary IEEE SP/C Joint Chapter UP Section</p>
+									</div>
+					    		</div>
+				    		</a>
+				    		<a href="#">
+						    	<div class = "card2">
+						    		<img src='images/team/amit_dhar.jpg'>
+						    		<div class="card2-container">
+								    	<h4>Dr. Amit Dhar</h4> 
+								    	<p>IIIT Allahabad</p>
+									</div>
+					    		</div>
+				    		</a>
+				    	</div>
+			    	</div>
+		    		<!-- for team members -->
+		    		<div style="width:40%; height:100%; float:right; margin-top:100px;">
+		    			<center><h1>Event Coordinators</h1></center>
+		    			<div class = "cardRow2" style="margin-top:20px;">
+		    			<a href="https://in.linkedin.com/in/meghaben">
 				    		<div class = "card2">
-					    		<img src='images/team/megha.jpg' style="width:200px;">
+					    		<img src='images/team/megha.jpg' >
 					    		<div class="card2-container">
 							    	<h4 class="card-title">Megha Ben</h4>
                             		<p>IEEE CS R-10 Ambassador</p>
@@ -441,7 +381,7 @@
 			    		</a>
 		    			<a href="https://www.facebook.com/shivam.abhilash">
 				    		<div class = "card2">
-					    		<img src='images/team/shivam.jpg' style="width:200px;">
+					    		<img src='images/team/shivam.jpg' >
 					    		<div class="card2-container">
 							    	<h4>Shivam</h4> 
 							    	<p>IEEE CSSR UP India Council</p> 
@@ -450,8 +390,8 @@
 				    		</div>
 			    		</a>
 		    			<a href="https://www.facebook.com/jtibrewal">
-				    		<div class = "card2">
-					    		<img src='images/team/jay.jpg' style="width:240px;">
+				    		<div class = "card2" style="height:210px;">
+					    		<img src='images/team/jay.jpg' >
 					    		<div class="card2-container">
 							    	<h4>Jay Tibrewal</h4> 
 							    	<p>Vice Chair IEEE CS SB Chapter, IIIT Allahabad</p> 
@@ -460,7 +400,9 @@
 				    		</div>
 			    		</a>
 		    		</div>
+		    		</div>
 		    	</div>
+
 	    	</div> <!-- End of aboutusPage -->
 	    </div>
 
@@ -481,7 +423,7 @@
 			          What will happen during CSIS 2017?
 			        </h2>
 			        <p class="faqAnswer">
-			          This year’s theme is “Humans & Computers”. As such, you can expect to find a variety of talks, workshops and other events which will focus on CS/IT domains such as Human Computer Interaction, Machine Learning, Cyber Security and many more! Please check out our Workshops page for more information.
+			          This year&#39;s theme is &quot;Humans & Computers&quot;. As such, you can expect to find a variety of talks, workshops and other events which will focus on CS/IT domains such as Human Computer Interaction, Machine Learning, Cyber Security and many more! Please check out our Workshops page for more information.
 			        </p>
 			      </div>
 			      <div class="faqElement">
@@ -538,8 +480,8 @@
 	    </div>
 	</div>
 
-	<!--dock menu JS options -->
-	<script type="text/javascript">
+<!--dock menu JS options -->
+<script type="text/javascript">
 	$(document).ready(
 		function()
 		{
@@ -558,10 +500,10 @@
 			)
 		}
 	);
-	</script>
+</script>
 
-	<!-- Script for handling FAQs -->
-	<script type="text/javascript">
+<!-- Script for handling FAQs -->
+<script type="text/javascript">
       $(document).ready(function() {
           $('.faqElement').click(function() {
             var faqElement = $(this);
@@ -582,10 +524,10 @@
             }
         });
       });
-  	</script>
+  </script>
 
-	<!-- Function to handle countdown timer -->
-	<script>
+<!-- Function to handle countdown timer -->
+<script>
 	function countdown(){
 		var now = new Date();
 		var eventDate = new Date("2017-03-17");
@@ -594,7 +536,6 @@
 		var eventTime = eventDate.getTime();
 
 		var remTime = eventTime - currentTime;
-		console.log("eT " + eventTime + "  cT " + currentTime + " rT "+ remTime )
 		var s = Math.floor(remTime / 1000);
 		var m = Math.floor(s / 60);
 		var h = Math.floor(m / 60);
@@ -620,74 +561,25 @@
 		setTimeout(countdown, 1000);
 	}
 	countdown();
-	</script>
+</script>
 
-	<!-- To redirect to mobile website -->
-	<script type="text/javascript">
+<!-- To redirect to mobile website -->
+<script type="text/javascript">
 	function check_for_mobile() {
 		var width = window.innerWidth
 		var height = window.innerHeight;
 		//console.log("width " + width + " height:" + height);
 		
 		if( width <= 950 || height <= 550 ){
-			//window.location = "http://ieeecsis.org/m/index.html";
-			console.log("In Bmobile");
+			window.location = "http://ieeecsis.org/m/index.html";
+			//console.log("In Bmobile");
 		} else {
-			console.log("In BBrowser");
+			//console.log("In BBrowser");
 		}
 		setTimeout(check_for_mobile, 5000); //check in every 10 seconds
 	}
 	check_for_mobile();
-	</script>
-	<script type="text/javascript">
-		var modalEl = document.getElementById('modal1');
-	    var modalInst = new Modal(modalEl, {
-	      // no code
-	    });
-	    modalInst.init();
-	</script>
-	<script type="text/javascript">
-		var modalEl = document.getElementById('modal2');
-	    var modalInst = new Modal(modalEl, {
-	      // no code
-	    });
-	    modalInst.init();
-	</script>
-	<script type="text/javascript">
-		var modalEl = document.getElementById('modal3');
-	    var modalInst = new Modal(modalEl, {
-	      // no code
-	    });
-	    modalInst.init();
-	</script>
-	<script type="text/javascript">
-		var modalEl = document.getElementById('modal4');
-	    var modalInst = new Modal(modalEl, {
-	      // no code
-	    });
-	    modalInst.init();
-	</script>
-	<script type="text/javascript">
-		var modalEl = document.getElementById('modal5');
-	    var modalInst = new Modal(modalEl, {
-	      // no code
-	    });
-	    modalInst.init();
-	</script>
-	<script type="text/javascript">
-		var modalEl = document.getElementById('modal6');
-	    var modalInst = new Modal(modalEl, {
-	      // no code
-	    });
-	    modalInst.init();
-	</script>
-	<script type="text/javascript">
-		var modalEl = document.getElementById('modal7');
-	    var modalInst = new Modal(modalEl, {
-	      // no code
-	    });
-	    modalInst.init();
-	</script>
-</body>
+</script>
 
+</body>
 </html>

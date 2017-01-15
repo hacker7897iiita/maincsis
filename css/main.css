@@ -89,10 +89,9 @@ ul#countdown li p {
 }
 
 .cardRow2 {
-   width: 1000px;
-   height: 200px;
-   margin-left: auto;
-   margin-right: auto;
+   width: 700px;
+   height: 220px;
+   margin: 0 auto;
 }
 
 .card2 {
@@ -101,19 +100,20 @@ ul#countdown li p {
     position: inline-block;
     text-align:center;
     transition: 0.9s;
-    width: 150px;
-    height: 150px;
-    margin-left: 20px;
-    margin-top: 8px;
+    width: 160px;
+    height: 205px;
+    margin-left: 10px;
+    margin-top: 10px;
     float: left;
-    
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
 }
 
 .card2 > img {
-    max-width: 100%;
-    max-height: 100%;
-    height: 200px;
-   
+    width: 150px;
+    height: 150px;
+    border-radius: 85px;
+    border: 5px solid #bebfc5;
 }
 
 .card2:hover {
@@ -216,8 +216,69 @@ ul#countdown li p {
     height: 3px;
     background-color: #fac42b;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
+}
+
+/* for making box for sponsors*/
+.title_sponsors {
+    text-align: center;
+    position: inline-block;
+    text-align:center;
+    transition: 0.9s;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.sponsor_header {
+    padding: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #AFA3A3;
+    color: black;
+}
+
+.major_sponsors {
+    text-align: center;
+    position: inline-block;
+    text-align:center;
+    transition: 0.9s;
+    width: 650px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    float: left;
+}
+
+.major_sponsors > img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.education_partner {
+    text-align: center;
+    position: inline-block;
+    text-align:center;
+    transition: 0.9s;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+}
+
+.otherSponsors {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .registerPage {
@@ -293,11 +354,6 @@ span.space{
 .sponsor > img {
     width:200px;
     max-height: 200px;
-}
-
-.education_partner {
-    margin-top: 10px;
-    width: 300px;
 }
 
 .events> ol > li >a:link {
